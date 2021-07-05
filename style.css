@@ -344,14 +344,17 @@ nav ul li a:hover:after{
 #about .item1{
     text-align: center;
     position: relative;
-}        
-#about .item2{
+}  
+
+#about .item2 {
     text-align: right;
     position: relative;
-}        
-#about .item3{
+    margin-right: 14px;
+}
+#about .item3 {
     text-align: left;
     position: relative;
+    margin-left: 14px;
 }        
 #about .item4{
     text-align: center;
@@ -383,7 +386,7 @@ nav ul li a:hover:after{
 #about .item4 i{
     position: absolute;
     top: -45px;
-    left: 49.5%;
+    left: 50%;
     transform: translateX(-50%);
 }
 

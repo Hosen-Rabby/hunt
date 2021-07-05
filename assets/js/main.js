@@ -86,12 +86,13 @@ $('.testi-img-slider').slick({
 
   responsive: [
   {
-    breakpoint: 1024,
+    breakpoint: 992,
     settings: {
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      infinite: true,
-      dots: true
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      vertical: false,
+      prevArrow: '<i class="fas fa-angle-left testi_up"></i>',
+      nextArrow: '<i class="fas fa-angle-right testi_down"></i>',
     }
   },
   {
@@ -197,14 +198,14 @@ $('.sponser-slider').slick({
   {
     breakpoint: 768,
     settings: {
-      slidesToShow: 1,
+      slidesToShow: 2,
       slidesToScroll: 1,
     }
   },
   {
     breakpoint: 576,
     settings: {
-      slidesToShow: 1,
+      slidesToShow: 2,
       slidesToScroll: 1,
     }
   }

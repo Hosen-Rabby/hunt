@@ -73,6 +73,16 @@
     background: rgba(0,0,0,.8);
 }
 
+nav ul li a::after {
+    display: none !important;
+}
+
+
+#banner .banner_slider {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%) !important;
+}
+
+
 #about .item {
     width: 100% !important;
     background: var(--ash) !important;
@@ -119,12 +129,48 @@
     z-index: -1 !important;
 }
 
+#portfolio {
+    clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%) !important;
+}
+
+
+#portfolio .port_item .img img {
+    width: 100% !important;
+}
+
 #services .line {
     height: 1180px !important;
 }
 #services .service-slider i {
     left: 47.3% !important;
 }
+
+
+#testimonial {
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%) !important;
+}
+
+#count {
+    clip-path: polygon(0 13%, 100% 0, 100% 84%, 0% 100%) !important;
+}
+
+.count_overlay .item {
+    margin: 20px auto !important;
+}
+
+#sponser {
+    clip-path: polygon(0 13%, 100% 0, 100% 87%, 0% 100%) !important;
+}
+
+.logo {
+    transform: rotate(-3deg) !important;
+}
+
+.logo img {
+    transform: rotate(3deg) !important;
+}
+
+
 
 }
 
@@ -149,6 +195,11 @@
     .navbar-brand img{
         width: 100%;
     }
+
+
+nav ul li a::after {
+    display: none !important;
+}
 
 
 
@@ -238,6 +289,10 @@
 
 #portfolio .port_item .img img{
     width: 100% !important;
+}
+
+.port_overlay {
+    padding-bottom: 50px !important;
 }
 
 
@@ -512,6 +567,12 @@ nav ul li a::after {
 #portfolio .port_item .img img{
     width: 100% !important;
 }
+
+
+.port_overlay {
+    padding-bottom: 50px !important;
+}
+
 
 
 /*testi*/
