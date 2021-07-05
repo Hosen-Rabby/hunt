@@ -86,16 +86,6 @@ $('.testi-img-slider').slick({
 
   responsive: [
   {
-    breakpoint: 992,
-    settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      vertical: false,
-      prevArrow: '<i class="fas fa-angle-left testi_up"></i>',
-      nextArrow: '<i class="fas fa-angle-right testi_down"></i>',
-    }
-  },
-  {
     breakpoint: 768,
     settings: {
       slidesToShow: 1,
@@ -135,15 +125,6 @@ $('.testi_details-slider').slick({
   asNavFor: '.testi-img-slider',
 
   responsive: [
-  {
-    breakpoint: 1024,
-    settings: {
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      infinite: true,
-      dots: true
-    }
-  },
   {
     breakpoint: 768,
     settings: {
@@ -187,12 +168,10 @@ $('.sponser-slider').slick({
 
   responsive: [
   {
-    breakpoint: 1024,
+    breakpoint: 992,
     settings: {
       slidesToShow: 3,
-      slidesToScroll: 3,
-      infinite: true,
-      dots: true
+      slidesToScroll: 1
     }
   },
   {

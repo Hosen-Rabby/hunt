@@ -1,3 +1,8 @@
+:root{
+    --i: !important;
+}
+
+
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
     .nav-item a{
@@ -7,17 +12,17 @@
     #about .item {
         width: auto !important;
         padding: 15px !important;
-}
+    }
 
-#about .item2 {
-     margin-left: 0px !important; 
-}
-    
-#about .item3 {
-     margin-left: 0px !important; 
-}
+    #about .item2 {
+       margin-left: 0px !important; 
+   }
+   
+   #about .item3 {
+       margin-left: 0px !important; 
+   }
 
-#about .round {
+   #about .round {
     width: 295px !important;
     height: 295px !important;
 
@@ -41,6 +46,10 @@
     left: 41.5% !important;
 }
 
+.testi_left .testi-img-slider i {
+    left: 36.3% !important;
+}
+
 #about .item i {
     font-size: 15px !important;
 }
@@ -50,6 +59,10 @@
 }
 #services .service-slider i {
     left: 48% !important;
+}
+
+.count_overlay .item {
+    width: 165px !important;
 }
 
 
@@ -63,7 +76,7 @@
 /* Tablet Layout: 768px. */
 
 @media (min-width:768px) and (max-width:991px){
-     .navbar-nav {
+   .navbar-nav {
     display: flex;
     flex-direction: column;
     padding-left: 0;
@@ -150,6 +163,10 @@ nav ul li a::after {
     clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%) !important;
 }
 
+.testi_details {
+    margin-top: 70px !important;
+}
+
 #count {
     clip-path: polygon(0 13%, 100% 0, 100% 84%, 0% 100%) !important;
 }
@@ -160,6 +177,11 @@ nav ul li a::after {
 
 #sponser {
     clip-path: polygon(0 13%, 100% 0, 100% 87%, 0% 100%) !important;
+}
+
+
+footer {
+    padding: 68px 0 !important;
 }
 
 .logo {
@@ -178,7 +200,7 @@ nav ul li a::after {
 
 @media (min-width:576px) and (max-width:767px){
 
- .navbar-nav {
+   .navbar-nav {
     display: flex;
     flex-direction: column;
     padding-left: 0;
@@ -188,13 +210,13 @@ nav ul li a::after {
     background: rgba(0,0,0,.8);
 }
 
-  .navbar-brand{
-        width: 90px;
-    }
+.navbar-brand{
+    width: 90px;
+}
 
-    .navbar-brand img{
-        width: 100%;
-    }
+.navbar-brand img{
+    width: 100%;
+}
 
 
 nav ul li a::after {
@@ -203,7 +225,7 @@ nav ul li a::after {
 
 
 
-    nav ul li a::after {
+nav ul li a::after {
     display: none !important;
 }
 
@@ -213,7 +235,7 @@ nav ul li a::after {
 }
 
 #banner .banner_slider .overlay{
-    height: auto !important;
+    height: 100vh !important;
 }
 
 
@@ -307,9 +329,9 @@ nav ul li a::after {
 }
 
 .testi_details {
-     margin-left: 0px !important; 
-     width: auto !important;
-     text-align: center; 
+   margin-left: 0px !important; 
+   width: auto !important;
+   text-align: center; 
 }
 .testi_details_text img{
     margin: 0 auto !important;
@@ -378,13 +400,13 @@ nav ul li a::after {
     margin: 20px 0 !important;
 }
 #services .item .details {
-     width: 100% !important; 
-     text-align: center !important;
+   width: 100% !important; 
+   text-align: center !important;
 }
 
 #services .item .details p {
-     padding: 24px !important; 
-     text-align: center !important;
+   padding: 24px !important; 
+   text-align: center !important;
 
 }
 
@@ -461,7 +483,7 @@ nav ul li a::after {
 
 @media (max-width:575px){
 
-     .navbar-nav {
+   .navbar-nav {
     display: flex;
     flex-direction: column;
     padding-left: 0;
@@ -471,13 +493,13 @@ nav ul li a::after {
     background: rgba(0,0,0,.8);
 }
 
-  .navbar-brand{
-        width: 90px;
-    }
+.navbar-brand{
+    width: 90px;
+}
 
-    .navbar-brand img{
-        width: 100%;
-    }
+.navbar-brand img{
+    width: 100%;
+}
 
 
 nav ul li a::after {
@@ -490,7 +512,7 @@ nav ul li a::after {
 }
 
 #banner .banner_slider .overlay{
-    height: auto !important;
+    height: 100vh !important;
 }
 
 
@@ -586,9 +608,9 @@ nav ul li a::after {
 }
 
 .testi_details {
-     margin-left: 0px !important; 
-     width: auto !important;
-     text-align: center; 
+   margin-left: 0px !important; 
+   width: auto !important;
+   text-align: center; 
 }
 .testi_details_text img{
     margin: 0 auto !important;
@@ -657,13 +679,13 @@ nav ul li a::after {
     margin: 20px 0 !important;
 }
 #services .item .details {
-     width: 100% !important; 
-     text-align: center !important;
+   width: 100% !important; 
+   text-align: center !important;
 }
 
 #services .item .details p {
-     padding: 24px !important; 
-     text-align: center !important;
+   padding: 24px !important; 
+   text-align: center !important;
 
 }
 
@@ -755,9 +777,9 @@ nav ul li a::after {
     .navbar-brand img{
         width: 100%;
     }
-}*/
+    }*/
 
-/* Wide Mobile Layout: 480px. */
+    /* Wide Mobile Layout: 480px. */
 /*@media only screen and (max-width: 480px) { 
 .navbar-brand {
     width: 90px;
