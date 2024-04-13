@@ -4,6 +4,14 @@
 
 
 /* Medium Layout: 1280px. */
+@media only screen and (min-width: 1201px) and (max-width: 1400px) { 
+
+#about .round .img {
+    width: 355 !important;
+    height: 355 !important;
+}
+
+}
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
     .nav-item a{
         font-size: 13px;
@@ -64,10 +72,6 @@
 .count_overlay .item {
     width: 165px !important;
 }
-
-
-
-
 
 }
 

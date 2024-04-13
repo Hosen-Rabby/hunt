@@ -280,8 +280,8 @@ nav ul li a:hover:after{
 }
 
 #about .round{
-    width: 355px;
-    height: 355px;
+    width: 415px;
+    height: 515px;
     border: 1px solid var(--offblack);
     border-radius: 50%;
     display: flex;
